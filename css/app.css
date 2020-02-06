@@ -75,7 +75,7 @@ header a {
 
 
 
-.hamburger{
+.hamburger,.hamburger-close{
     display: none;
 }
 
