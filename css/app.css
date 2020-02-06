@@ -75,7 +75,7 @@ header a {
 
 
 
-.hamburger,.hamburger-close{
+.hamburger, .hamburger-close{
     display: none;
 }
 
@@ -174,7 +174,8 @@ footer {
         flex-direction: column;
     }
 
-    .hamburger-close{           
+    .hamburger-close{   
+        display: block;        
         position:fixed;
         transform: translateX(0vw);
         transition-duration: 0.3s;
